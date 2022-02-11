@@ -10,7 +10,7 @@ int main()
     initgraph(&gd, &gm, (char *)"");
     cout << "1.Translation\n2.Rotation\n3.Scaling\n4.Reflection\n5.Shearing   " << endl;
     cout << "Selection:";
-    cin >> s;
+    cin >> s; //accept input from user
     switch (s)
     {
     case 1:
